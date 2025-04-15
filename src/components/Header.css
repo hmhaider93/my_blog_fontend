@@ -1,6 +1,11 @@
 .header {
   background-color: grey;
   padding: 1rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Ensure it stays above other elements */
 }
 
 .nav-list {
@@ -18,5 +23,14 @@
 }
 
 .nav-list a:hover {
+  text-decoration: underline;
+}
+
+.nav-list li a[href="#about"] {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.nav-list li a[href="#about"]:hover {
   text-decoration: underline;
 }
