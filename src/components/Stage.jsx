@@ -40,8 +40,21 @@ const StageSection = () => {
                       speed: 30,
                       startDelay: 700,
                     }}
+                    getBeforeInit={(instance) => {
+                        instance
+                          .type("I'm a Full Stack Web Developer.")
+                          .pause(750)
+                          .delete(24)
+                          .pause(500)
+                          .type("lutter Developer.")
+                          .pause(750)
+                          .delete(19)
+                          .type("n AI Enthusiast.");
+                
+                        // Remember to return it!
+                        return instance;
+                      }}
                   >
-                    AI Enthusiast | Flutter and Native Mobile Developer | Fullstack Devloper
                   </TypeIt>
                 </h3>
                 <p>
