@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import reactLogo from '../assets/react.svg';
 import viteLogo from '/vite.svg';
-import '../App.css';
+import './Blog.css';
 
 function Blog() {
   const [count, setCount] = useState(0);
 
   return (
-    <>
+    <div className="blog">
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -28,7 +28,7 @@ function Blog() {
       <p className="read-the-docs">
         Brought to you by Saad Hasan and Haider.
       </p>
-    </>
+    </div>
   );
 }
 

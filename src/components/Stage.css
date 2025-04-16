@@ -1,0 +1,49 @@
+/* filepath: /path/to/HeaderSection.css */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.fh5co-cover {
+    position: relative;
+    width: 100%;
+    min-height: 100vh; /* Ensures the background fills the entire screen */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+}
+  
+.profile-thumb {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+}
+  
+.fh5co-social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+  
+.fh5co-social-icons li {
+    margin: 0 10px;
+}
+  
+.fh5co-social-icons a {
+    color: white;
+    font-size: 20px;
+}

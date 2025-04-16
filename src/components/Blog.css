@@ -1,0 +1,27 @@
+/* Centering the content of Blog.jsx */
+
+/* Apply flexbox to center the content */
+.blog {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+div {
+  text-align: center;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+.card {
+  margin: 20px 0;
+}
+
+.read-the-docs {
+  margin-top: 20px;
+}
