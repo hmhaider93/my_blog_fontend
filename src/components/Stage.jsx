@@ -39,14 +39,17 @@ const StageSection = () => {
                     }}
                     getBeforeInit={(instance) => {
                         instance
-                          .type("I'm a Full Stack Web Developer.")
-                          .pause(750)
-                          .delete(24)
-                          .pause(500)
-                          .type("lutter Developer.")
-                          .pause(750)
-                          .delete(19)
-                          .type("n AI Enthusiast.");
+                            .type("I'm a Full Stack Web Developer.")
+                            .pause(750)
+                            .delete(24)
+                            .pause(500)
+                            .type("lutter Developer.")
+                            .pause(750)
+                            .delete(19)
+                            .type("n AI Enthusiast.")
+                            .pause(750)
+                            .break() // Moves to the next line
+                            .type("<span style='font-weight: bold; font-size: 1.5em;'>Oh Lord Make Me Brave, and make my path Easy for me.</span>")
                 
                         // Remember to return it!
                         return instance;
