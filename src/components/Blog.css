@@ -10,6 +10,10 @@
   margin: 0;
 }
 
+.react {
+    border-radius: 50%;
+}
+
 div {
   text-align: center;
 }

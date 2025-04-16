@@ -27,9 +27,6 @@ const StageSection = () => {
               >
                 <div
                   className="profile-thumb"
-                  style={{
-                    background: "url('/images/utkvctr.png')",
-                  }}
                 ></div>
                 <h1>
                   <b>Haider Mushtaq</b>
@@ -57,20 +54,6 @@ const StageSection = () => {
                   >
                   </TypeIt>
                 </h3>
-                <p>
-                  <ul className="fh5co-social-icons">
-                    <li>
-                      <a href="https://www.linkedin.com/in/skhiearth/">
-                        <i className="icon-linkedin2"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://github.com/skhiearth">
-                        <i className="icon-github"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </p>
                 <br />
                 <br />
               </div>

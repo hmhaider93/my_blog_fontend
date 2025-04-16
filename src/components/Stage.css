@@ -5,6 +5,10 @@ html, body {
     padding: 0;
 }
 
+.animate-box {
+    padding-top: 80px; /* Adjust for fixed header */;
+}
+
 .fh5co-cover {
     position: relative;
     width: 100%;
@@ -28,8 +32,8 @@ html, body {
     height: 150px;
     border-radius: 50%;
     margin: 0 auto;
-    background-size: cover;
-    background-position: center;
+    background-image: url('/images/haide1r.png');
+    background-size: contain;
 }
   
 .fh5co-social-icons {
