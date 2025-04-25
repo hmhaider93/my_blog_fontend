@@ -48,7 +48,7 @@ const StageSection = () => {
                             .delete(19)
                             .type("n AI Enthusiast.")
                             .pause(750)
-                            .break() // Moves to the next line
+                            .break() // Moves tto the next line
                             .type("<span style='font-weight: bold; font-size: 1.5em;'>Oh Lord Make Me Brave, and make my path Easy for me.</span>")
                 
                         // Remember to return it!
